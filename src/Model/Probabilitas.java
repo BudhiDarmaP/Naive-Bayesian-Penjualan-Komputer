@@ -9,8 +9,7 @@ import Connection.DatabaseManager;
 public class Probabilitas {
 
     public double p_buys_computer_true() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index = 0;
         int total = 0;
         double dIndex;
@@ -28,8 +27,7 @@ public class Probabilitas {
     }
 
     public double p_buys_computer_false() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index = 0;
         int total = 0;
         double dIndex;
@@ -47,8 +45,7 @@ public class Probabilitas {
     }
 
     public double p_credit_rating_fair() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index = 0;
         int total = 0;
         double dIndex;
@@ -66,8 +63,7 @@ public class Probabilitas {
     }
 
     public double p_credit_rating_excellent() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index = 0;
         int total = 0;
         double dIndex;
@@ -85,8 +81,7 @@ public class Probabilitas {
     }
 
     public double p_student_true() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index = 0;
         int total = 0;
         double dIndex;
@@ -104,8 +99,7 @@ public class Probabilitas {
     }
 
     public double p_student_false() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index = 0;
         int total = 0;
         double dIndex;
@@ -123,8 +117,7 @@ public class Probabilitas {
     }
 
     public double p_income_low() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index = 0;
         int total = 0;
         double dIndex;
@@ -142,8 +135,7 @@ public class Probabilitas {
     }
 
     public double p_income_medium() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index = 0;
         int total = 0;
         double dIndex;
@@ -161,8 +153,7 @@ public class Probabilitas {
     }
 
     public double p_income_high() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index = 0;
         int total = 0;
         double dIndex;
@@ -180,8 +171,7 @@ public class Probabilitas {
     }
 
     public double p_age1() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index = 0;
         int total = 0;
         double dIndex;
@@ -199,8 +189,7 @@ public class Probabilitas {
     }
 
     public double p_age2() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index = 0;
         int total = 0;
         double dIndex;
@@ -218,8 +207,7 @@ public class Probabilitas {
     }
 
     public double p_age3() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index = 0;
         int total = 0;
         double dIndex;
@@ -237,8 +225,7 @@ public class Probabilitas {
     }
 
     public double p_credit_rating_excellent_n_buys_computer_true() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -259,8 +246,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_credit_rating_excellent_n_buys_computer_false() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -281,8 +267,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_credit_rating_fair_n_buys_computer_true() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -303,8 +288,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_credit_rating_fair_n_buys_computer_false() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -325,8 +309,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_student_true_n_buys_computer_true() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -347,8 +330,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_student_true_n_buys_computer_false() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -369,8 +351,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_student_false_n_buys_computer_true() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -391,8 +372,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_student_false_n_buys_computer_false() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -413,8 +393,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_income_low_n_buys_computer_true() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -435,8 +414,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_income_low_n_buys_computer_false() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -457,8 +435,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_income_medium_n_buys_computer_true() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -479,8 +456,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_income_medium_n_buys_computer_false() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -501,8 +477,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_income_high_n_buys_computer_true() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -523,8 +498,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_income_high_n_buys_computer_false() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -545,8 +519,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_age1_n_buys_computer_true() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -567,8 +540,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_age1_n_buys_computer_false() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -589,8 +561,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_age2_n_buys_computer_true() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -611,8 +582,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_age2_n_buys_computer_false() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -633,8 +603,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_age3_n_buys_computer_true() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
@@ -655,8 +624,7 @@ public class Probabilitas {
         return dIndex1 / dIndex2;
     }
     public double p_age3_n_buys_computer_false() {
-        DatabaseManager db = new DatabaseManager();
-        Data[] d = db.getListData();
+        Data[] d = Data.getListData();
         int index1 = 0;
         int index2 = 0;
         int total = 0;
